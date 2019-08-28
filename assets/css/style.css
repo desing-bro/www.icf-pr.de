@@ -1,0 +1,215 @@
+body
+{
+font-family:tahoma, kalimati, arial;
+color:#585858;
+margin:0 auto;
+width:892px;
+display:table;
+background: url(../img/bg-complete.jpg) center top;
+background-repeat:repeat-y;
+font-size:13px;
+}
+
+.error {
+color:#e31c3b;
+}
+
+#cloud a:link {
+text-decoration:none;
+color:#585858;
+}
+
+#cloud a:hover {
+color:#e41d3c;
+}
+
+.red-box p {
+margin-top:4px;
+padding:0px;
+font-size:14px;
+}
+
+.blogPost a:link {
+color:#828c8e;
+}
+
+.blogPost a:hover {
+color:#e31c3b !important;
+}
+.blogPost a:visited {
+color:#828c8e;
+}
+
+.kontaktform {
+border-style:solid;
+border-width:1px;
+border-color:#eee;
+padding:10px;
+}
+
+#wrapper {
+width:892px;
+margin:0 auto;
+}
+
+#footer {
+border-style:dotted;
+border-width:1px 0px 0px 0px;
+height:80px;
+width:100%;
+position: relative; margin-top: 10px; 
+}
+
+#footer p {
+color:#000;
+font-size:12px;
+}
+
+
+h3 {
+color:#e41d3c;
+margin:0;
+padding:0;
+font-size:14px;
+font-weight:300;
+}
+
+#header-wrapper {
+height:360px;
+width:650px;
+margin-top:0px;
+margin: 0 auto;
+}
+
+.logo {
+background-image: url(../img/logo.png);
+width:211px;
+height:120px;
+position:relative;
+top:20px;
+z-index:9;
+}
+
+a:link {
+color:#585858;
+text-decoration:underline;
+}
+
+a:hover {
+color:#e31c3b
+}
+ 
+.red-box {
+background-image: url(../img/red-box.jpg);
+top:50px;
+position:relative;
+width:211px;
+height:160px;
+z-index:10;
+}
+
+.red-box p {
+color:#fff !important;padding-left:5px;padding-right:5px
+}
+
+.pantomime {
+position:absolute;
+height:360px;
+width:480px;
+margin-left:150px;
+top:0px;
+z-index:11;
+
+}
+
+
+#menu-wrapper {
+background-image: url(../img/menu-hg.png);
+background-repeat:no-repeat;
+height:30px; 
+width:650px;
+padding-top:2px;
+}
+
+
+
+#content-wrapper {
+width:630px;
+min-height:350px;
+}
+
+#freitext ul {
+list-style-image:url('../img/red-dot.png');
+
+}
+
+#left-side {
+position:absolute;
+margin:0 auto;
+width:650px;
+float:left;
+background-image: url(../img/hg.png);
+background-repeat:no-repeat;
+}
+#right-side {
+position:absolute;
+margin-left:650px;
+width:238px;
+float:left;
+background:  url(../img/bg-right.png) center top; 
+background-repeat:no-repeat;
+}
+
+#right-point-link {
+margin-top:-40px;
+margin-left:170px;
+width:50px;
+height:50px;
+
+}
+
+#right-wrapper {
+padding-top:50px;
+width:240px;
+
+
+
+}
+
+#right-side p{
+padding:0px 10px;
+font-size:12px;
+}
+
+h3 a{
+padding-left:10px;
+color:#000;
+text-decoration:none;
+}
+
+
+li.active a {
+text-decoration:underline;
+color:#000 !important;
+}
+
+
+/* common styling */
+.menu { width:650px; position:relative; margin:0; z-index:100;float:left;}
+.menu ul li a, .menu ul li a:visited {text-decoration:none; color:#fff; text-align:center;padding-right:8px;padding-left:8px;border-style:solid;border-width:0px 1px 0px 0px; border-color:#fff; background:transparent; line-height:25px;overflow:hidden;font-size:13px;}
+.menu ul li.last a {
+border-width:0px;
+}
+.menu ul {padding:0; margin:0;list-style-type: none; }
+.menu ul li {float:left; margin-right:1px; position:relative;}
+.menu ul li ul {display: none;}
+/* specific to non IE browsers */
+.menu ul li:hover a {color:#fff; text-decoration:underline;}
+.menu ul li:hover ul {display:block; position:absolute; top:25px; left:0;}
+.menu ul li:hover ul li a.hide {background:#003665; color:#fff;}
+.menu ul li:hover ul li:hover a.hide {background:#003665; color:#fff;}
+.menu ul li:hover ul li ul {display: none;}
+.menu ul li:hover ul li a {display:block; background:#ddd; color:#fff;width:205px;text-align:left;padding-left:10px;}
+.menu ul li:hover ul li a:hover {background:#003665; color:#fff;}
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:216px; top:0;}
+.menu ul li:hover ul li:hover ul.left {left:-105px;}
